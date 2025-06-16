@@ -57,5 +57,3 @@ simple-chat/
 Aplikasi ini open source dan bebas digunakan untuk pembelajaran.
 
 ---
-
-Dibuat oleh [ramadani00](https://github.com/ramadani00)
