@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Sederhana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <h1>💬 Chat (KelompokLima)</h1>
+    
+    <div class="login-section" id="loginSection">
+      <input type="text" id="name" placeholder="Masukkan nama Anda..." required>
+      <button id="loginBtn">Masuk ke Chat</button>
+    </div>
+    
+    <div class="chat-section hidden" id="chatSection">
+      <ul id="chatMessages"></ul>
+      
+      <div class="message-input">
+        <input type="text" id="messageInput" placeholder="Tulis pesan Anda..." disabled>
+        <button id="sendBtn" disabled>Kirim</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
